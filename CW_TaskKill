@@ -1,0 +1,1 @@
+taskkill /IM LTSVC.exe /F && taskkill /IM LTTray.exe /F && taskkill /IM LTSvcMon.exe /F && net start LTService && net start LTSvcMon 
