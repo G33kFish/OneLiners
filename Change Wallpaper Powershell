@@ -1,0 +1,1 @@
+Add-Type -TypeDefinition 'using System.Runtime.InteropServices; public class W{[DllImport("user32.dll")]public static extern int SystemParametersInfo(int u,int p,string s,int f);}' ; [W]::SystemParametersInfo(20,0,"C:\Path\To\wallpaper.jpg",3)
